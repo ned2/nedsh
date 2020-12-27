@@ -1,1 +1,1 @@
-Sitemap: https://ned2.github.io/nedsh/sitemap.xml
+Sitemap: https://www.ned.sh/sitemap.xml
