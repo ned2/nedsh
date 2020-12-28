@@ -4,8 +4,8 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+I'm Ned.
 
+I'm data science engineer and technologist.
 
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+I work at ThoughtWorks Australia.
