@@ -42,6 +42,7 @@ minima:
     twitter: nletcher
     github: ned2
     linkedin: nletcher
+    rss: true
 
 # Set this to true to get LaTeX math equation support
 use_math: true
