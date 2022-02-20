@@ -27,10 +27,7 @@ author = "Ned Letcher"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-    "myst_nb",
-    "ablog",
-]
+extensions = ["myst_nb", "ablog", "sphinx.ext.intersphinx"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
@@ -65,9 +62,19 @@ html_static_path = ["_static"]
 html_favicon = "_static/favicon.ico"
 
 
+html_sidebars = {
+    "index": ["ned.html"],
+    "about": ["ned.html"],
+    "projects": ["ned.html"],
+    "talks": ["ned.html"],
+    "posts": ["ned.html"],
+    "posts/**": ["ned.html"],
+}
+
+
 blog_baseurl = "https://ned.sh"
 blog_title = "ned.sh"
-blog_path = "blog"
+blog_path = "posts"
 fontawesome_included = True
 blog_post_pattern = "posts/*/*"
 post_redirect_refresh = 1
