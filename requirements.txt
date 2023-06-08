@@ -33,7 +33,7 @@ black==22.1.0
     # via ipython
 bleach==4.1.0
     # via nbconvert
-certifi==2021.10.8
+certifi==2022.12.7
     # via requests
 cffi==1.15.0
     # via argon2-cffi-bindings
